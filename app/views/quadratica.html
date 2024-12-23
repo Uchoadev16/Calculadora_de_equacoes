@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="../assets/css/quadratica.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Calculadora</h1>
+        <nav>
+            <ul>
+                <li><a href="./afim.html">Função afim</a></li>
+                <li><a href="quadratica.html">Função quadratica</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+
+        <p>
+            <input type="number" name="pax2" id="ax2">X² +
+            <input type="number" name="pbx" id="bx">X +
+            <input type="number" name="pc" id="c"> = 0
+        </p>
+
+        <button onclick="calcular()">Gerar e calcular</button>
+
+        <div id="res"></div>
+        <div id="cal"></div>
+    </section>
+    <script src="../assets/js/quadratica.js"></script>
+</body>
+
+</html>

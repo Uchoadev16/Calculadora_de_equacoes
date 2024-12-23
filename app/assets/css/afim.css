@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    color: #333;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    background-color: #0288d1;
+    /* Azul escuro */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid #01579b;
+}
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b3e5fc;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 275px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border: 2px solid #0288d1;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
+    width: 100px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #01579b;
+}
+
+button {
+    background-color: #0288d1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #01579b;
+}
+
+#res,
+#cal {
+    margin-top: 20px;
+    background-color: #f1f8e9;
+    padding: 15px;
+    border-radius: 8px;
+    color: #01579b;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
